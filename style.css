@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(90deg, #fce7c8, #b1c29e, #fada7a, #f0a04b);
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+div {
+  font-family: cursive;
+  text-align: center;
+  background-color: #6a9c89;
+  padding: 5px;
+  border-radius: 10px;
+}
+.h1 {
+  color: white;
+}
+button {
+  background-color: #754e1a;
+  color: white;
+  font-family: "Brush Script MT", cursive;
+}
+input,
+select,
+button {
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  border: solid rgba(145, 137, 137, 0.247);
+}
+#noName {
+  color: rgb(180, 4, 4);
+}
